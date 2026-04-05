@@ -1,0 +1,23 @@
+{
+    "C_Cpp.default.compilerPath": "D:/MSYS2/ucrt64/bin/g++.exe",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "D:/MSYS2/ucrt64/include/**"
+    ],
+    "C_Cpp.default.cppStandard": "c++17",
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 UCRT64": {
+            "path": "D:\\MSYS2\\usr\\bin\\bash.exe",
+            "args": ["--login", "-i"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64",
+    "terminal.integrated.env.windows": {
+        "PATH": "D:\\MSYS2\\ucrt64\\bin;${env:PATH}",
+        "MSYSTEM": "UCRT64",
+        "CHERE_INVOKING": "1"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "workbench.colorTheme": "Dark 2026",
+    "editor.mouseWheelZoom": true
+}
